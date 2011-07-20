@@ -3,15 +3,12 @@
     "descriptions": "Simplified AST traversing.",
     "version": "0.0.2",
     "author": "Craig Condon <craig@spiceapps.com>",
-    "bin": {
-        "sardines": "./bin/sardines"
-    },
     "repository": {
         "type": "git",
-        "url": "http://github.com/spiceapps/sardines.git"
+        "url": "http://github.com/spiceapps/aster.git"
     },
-    "main": "./lib/index.js",
+    "main": "./lib/aster.js",
     "dependencies": {
-        "uglify":"*"
+        "uglify-js":"*"
     }
 }
