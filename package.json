@@ -7,7 +7,7 @@
         "type": "git",
         "url": "http://github.com/spiceapps/aster.git"
     },
-    "main": "./lib/aster.js",
+    "main": "./lib/index.js",
     "dependencies": {
         "uglify-js":"*"
     }
