@@ -1,7 +1,7 @@
 What's this?
 ------------
 
-A library that makes traversing Abstract Syntax Tree's easy.
+A library that makes traversing Abstract Syntax Tree's easier.
 
 Why?
 ----
