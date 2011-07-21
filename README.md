@@ -19,7 +19,7 @@ What's does it do exactly?
 Code Usage:
 -----------
 
-```javascript
+````javascript
 
 var aster = require('aster');
 
@@ -46,6 +46,8 @@ messages.forEach(function(message)
 	//hello2 is referenced 0 times.
 	console.log(message);
 });
+
+````
 
 
 To Do:
