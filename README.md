@@ -12,7 +12,7 @@ What's it do exactly?
 ---------------------
 
 - Creates expressions out of the arrays uglify-js spits out.
-- Identifies defined variables, their references, and their scope, and places them in a Symbol Table.
+- Identifies variables, their references, and their scope.
 - Easily walk through the AST.
 
 What about the name?
