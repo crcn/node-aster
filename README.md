@@ -8,12 +8,17 @@ Why?
 
 The tool was original developed [sardines](https://github.com/spiceapps/sardines).
 
-What's does it do exactly?
---------------------------
+What's it do exactly?
+---------------------
 
 - Creates expressions out of the arrays uglify-js spits out.
 - Identifies defined variables, their references, and their scope, and places them in a Symbol Table.
 - Easily walk through the AST.
+
+What about the name?
+--------------------
+
+AST-er, get it? Aster's a flower, but it's not a spice :/. Whatever, I bet it's still edible.
 
 
 Code Usage:
