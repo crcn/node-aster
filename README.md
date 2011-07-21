@@ -6,7 +6,7 @@ A layer ontop of uglify-js to help make traversing, and handling javascript Abst
 Why?
 ----
 
-The tool was original developed [sardines](https://github.com/spiceapps/sardines).
+The tool was original developed for [sardines](https://github.com/spiceapps/sardines).
 
 What's it do exactly?
 ---------------------
