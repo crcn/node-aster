@@ -1,0 +1,435 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'publish', '--force' ]
+info using npm@1.0.103
+info using node@v0.4.12
+verbose config file /Users/craig/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose config file /usr/local/lib/node_modules/npm/npmrc
+verbose publish [ '.' ]
+silly testEngine { name: 'aster',
+silly testEngine   descriptions: 'Simplified AST traversing.',
+silly testEngine   version: '0.0.3',
+silly testEngine   author: { name: 'Craig Condon', email: 'craig@spiceapps.com' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/spiceapps/aster.git' },
+silly testEngine   main: './lib/index.js',
+silly testEngine   dependencies: { 'uglify-js': '*' },
+silly testEngine   _npmUser: { name: 'architectd', email: 'craig@spiceapps.com' },
+silly testEngine   _id: 'aster@0.0.3',
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.103',
+silly testEngine   _nodeVersion: 'v0.4.12',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   scripts: {} }
+verbose caching /Users/craig/Dropbox/Developer/Public/aster/package.json
+verbose loadDefaults aster@0.0.3
+info prepublish aster@0.0.3
+verbose cache add [ '.', null ]
+silly cache add: name, spec, args [ undefined, '.', [ '.', null ] ]
+verbose parsed url { pathname: '.', href: '.' }
+silly testEngine { name: 'aster',
+silly testEngine   descriptions: 'Simplified AST traversing.',
+silly testEngine   version: '0.0.3',
+silly testEngine   author: { name: 'Craig Condon', email: 'craig@spiceapps.com' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/spiceapps/aster.git' },
+silly testEngine   main: './lib/index.js',
+silly testEngine   dependencies: { 'uglify-js': '*' },
+silly testEngine   _npmUser: { name: 'architectd', email: 'craig@spiceapps.com' },
+silly testEngine   _id: 'aster@0.0.3',
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.103',
+silly testEngine   _nodeVersion: 'v0.4.12',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/Users/craig/Dropbox/Developer/Public/aster',
+silly testEngine   bundleDependencies: [] }
+verbose caching package.json
+verbose loadDefaults aster@0.0.3
+verbose pack /Users/craig/Dropbox/Developer/Public/aster /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526664387-0.2561082695610821/tmp.tgz
+verbose mkdir (expected) error ENOENT, No such file or directory '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388'
+verbose mkdir (expected) error ENOENT, No such file or directory '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526664387-0.2561082695610821'
+verbose mkdir done: /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526664387-0.2561082695610821 755
+verbose mkdir'ed /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526664387-0.2561082695610821
+verbose tar about to write tar and gzip it.
+silly tar args [ '-czvf', '-', '-T', '-' ]
+silly spawning [ 'tar',
+silly spawning   [ '-czvf', '-', '-T', '-' ],
+silly spawning   '/Users/craig/Dropbox/Developer/Public' ]
+verbose mkdir (expected) error ENOENT, No such file or directory '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526664387-0.2561082695610821/contents'
+verbose mkdir (expected) error ENOENT, No such file or directory '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526664387-0.2561082695610821/contents/___package.npm'
+verbose mkdir done: /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526664387-0.2561082695610821/contents/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526664387-0.2561082695610821/contents/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf',
+silly spawning     '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526664387-0.2561082695610821/tmp.tgz',
+silly spawning     '-o' ],
+silly spawning   '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526664387-0.2561082695610821/contents/___package.npm' ]
+silly tar err x aster/.cupboard
+silly tar err x aster/.gitignore
+silly tar err x aster/aster.sublime-project
+silly tar err x aster/package.json
+silly tar err x aster/README.md
+silly tar err x aster/lib/index.js
+silly tar err x aster/examples/ref/index.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526664387-0.2561082695610821/contents/___package.npm/aster
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526664387-0.2561082695610821/contents/___package.npm/aster/.cupboard
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526664387-0.2561082695610821/contents/___package.npm/aster/.gitignore
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526664387-0.2561082695610821/contents/___package.npm/aster/aster.sublime-project
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526664387-0.2561082695610821/contents/___package.npm/aster/package.json
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526664387-0.2561082695610821/contents/___package.npm/aster/README.md
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526664387-0.2561082695610821/contents/___package.npm/aster/lib
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526664387-0.2561082695610821/contents/___package.npm/aster/lib/index.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526664387-0.2561082695610821/contents/___package.npm/aster/examples
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526664387-0.2561082695610821/contents/___package.npm/aster/examples/ref
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526664387-0.2561082695610821/contents/___package.npm/aster/examples/ref/index.js
+verbose gunzed /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526664387-0.2561082695610821/contents/___package.npm/aster
+verbose rm'ed /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526664387-0.2561082695610821/contents/package
+verbose renamed [ '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526664387-0.2561082695610821/contents/___package.npm/aster',
+verbose renamed   '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526664387-0.2561082695610821/contents/package' ]
+silly testEngine { name: 'aster',
+silly testEngine   descriptions: 'Simplified AST traversing.',
+silly testEngine   version: '0.0.3',
+silly testEngine   author: { name: 'Craig Condon', email: 'craig@spiceapps.com' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/spiceapps/aster.git' },
+silly testEngine   main: './lib/index.js',
+silly testEngine   dependencies: { 'uglify-js': '*' },
+silly testEngine   _npmUser: { name: 'architectd', email: 'craig@spiceapps.com' },
+silly testEngine   _id: 'aster@0.0.3',
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.103',
+silly testEngine   _nodeVersion: 'v0.4.12',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526664387-0.2561082695610821/contents/package' }
+verbose caching /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526664387-0.2561082695610821/contents/package/package.json
+verbose loadDefaults aster@0.0.3
+verbose tarball contents [ 'package' ]
+verbose from cache /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526664387-0.2561082695610821/contents/package/package.json
+verbose pack /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526664387-0.2561082695610821/contents/package /Users/craig/.npm/aster/0.0.3/package.tgz
+verbose mkdir (expected) error ENOENT, No such file or directory '/Users/craig/.npm/aster'
+verbose mkdir (expected) error ENOENT, No such file or directory '/Users/craig/.npm/aster/0.0.3'
+verbose mkdir done: /Users/craig/.npm/aster/0.0.3 755
+verbose mkdir'ed /Users/craig/.npm/aster/0.0.3
+verbose tar about to write tar and gzip it.
+silly tar args [ '-czvf', '-', '-T', '-' ]
+silly spawning [ 'tar',
+silly spawning   [ '-czvf', '-', '-T', '-' ],
+silly spawning   '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526664387-0.2561082695610821/contents' ]
+verbose mkdir (expected) error ENOENT, No such file or directory '/Users/craig/.npm/aster/0.0.3/___package.npm'
+verbose mkdir done: /Users/craig/.npm/aster/0.0.3/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/craig/.npm/aster/0.0.3/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf',
+silly spawning     '/Users/craig/.npm/aster/0.0.3/package.tgz',
+silly spawning     '-o' ],
+silly spawning   '/Users/craig/.npm/aster/0.0.3/___package.npm' ]
+silly tar err x package/.cupboard
+silly tar err x package/.gitignore
+silly tar err x package/aster.sublime-project
+silly tar err x package/package.json
+silly tar err x package/README.md
+silly tar err x package/lib/index.js
+silly tar err x package/examples/ref/index.js
+silly asyncMap in gTP /Users/craig/.npm/aster/0.0.3/___package.npm/package
+silly asyncMap in gTP /Users/craig/.npm/aster/0.0.3/___package.npm/package/.cupboard
+silly asyncMap in gTP /Users/craig/.npm/aster/0.0.3/___package.npm/package/.gitignore
+silly asyncMap in gTP /Users/craig/.npm/aster/0.0.3/___package.npm/package/aster.sublime-project
+silly asyncMap in gTP /Users/craig/.npm/aster/0.0.3/___package.npm/package/package.json
+silly asyncMap in gTP /Users/craig/.npm/aster/0.0.3/___package.npm/package/README.md
+silly asyncMap in gTP /Users/craig/.npm/aster/0.0.3/___package.npm/package/lib
+silly asyncMap in gTP /Users/craig/.npm/aster/0.0.3/___package.npm/package/lib/index.js
+silly asyncMap in gTP /Users/craig/.npm/aster/0.0.3/___package.npm/package/examples
+silly asyncMap in gTP /Users/craig/.npm/aster/0.0.3/___package.npm/package/examples/ref
+silly asyncMap in gTP /Users/craig/.npm/aster/0.0.3/___package.npm/package/examples/ref/index.js
+verbose gunzed /Users/craig/.npm/aster/0.0.3/___package.npm/package
+verbose rm'ed /Users/craig/.npm/aster/0.0.3/package
+verbose renamed [ '/Users/craig/.npm/aster/0.0.3/___package.npm/package',
+verbose renamed   '/Users/craig/.npm/aster/0.0.3/package' ]
+silly testEngine { name: 'aster',
+silly testEngine   descriptions: 'Simplified AST traversing.',
+silly testEngine   version: '0.0.3',
+silly testEngine   author: { name: 'Craig Condon', email: 'craig@spiceapps.com' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/spiceapps/aster.git' },
+silly testEngine   main: './lib/index.js',
+silly testEngine   dependencies: { 'uglify-js': '*' },
+silly testEngine   _npmUser: { name: 'architectd', email: 'craig@spiceapps.com' },
+silly testEngine   _id: 'aster@0.0.3',
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.103',
+silly testEngine   _nodeVersion: 'v0.4.12',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   dist: 
+silly testEngine    { shasum: '4f24e8bdd17189ab6d8868c8a4ca6a7ee80b7678',
+silly testEngine      tarball: 'http://registry.npmjs.org/aster/-/aster-0.0.3.tgz' } }
+verbose caching /Users/craig/.npm/aster/0.0.3/package/package.json
+verbose loadDefaults aster@0.0.3
+silly updated sha bytes 10240
+info shasum 0647e7c07b9efc9331d354ea20123e770ef27596
+info shasum /Users/craig/.npm/aster/0.0.3/package.tgz
+verbose from cache /Users/craig/.npm/aster/0.0.3/package/package.json
+verbose chmod /Users/craig/.npm/aster/0.0.3/package.tgz 644
+verbose chown [ '/Users/craig/.npm/aster/0.0.3/package.tgz',
+verbose chown   501,
+verbose chown   20 ]
+silly publish { name: 'aster',
+silly publish   descriptions: 'Simplified AST traversing.',
+silly publish   version: '0.0.3',
+silly publish   author: { name: 'Craig Condon', email: 'craig@spiceapps.com' },
+silly publish   repository: 
+silly publish    { type: 'git',
+silly publish      url: 'git://github.com/spiceapps/aster.git' },
+silly publish   main: './lib/index.js',
+silly publish   dependencies: { 'uglify-js': '*' },
+silly publish   _npmUser: { name: 'architectd', email: 'craig@spiceapps.com' },
+silly publish   _id: 'aster@0.0.3',
+silly publish   devDependencies: {},
+silly publish   engines: { node: '*' },
+silly publish   _engineSupported: true,
+silly publish   _npmVersion: '1.0.103',
+silly publish   _nodeVersion: 'v0.4.12',
+silly publish   _defaultsLoaded: true,
+silly publish   dist: 
+silly publish    { shasum: '4f24e8bdd17189ab6d8868c8a4ca6a7ee80b7678',
+silly publish      tarball: 'http://registry.npmjs.org/aster/-/aster-0.0.3.tgz' } }
+verbose PUT aster
+verbose raw, before any munging aster
+verbose url resolving [ 'https://registry.npmjs.org/', './aster' ]
+verbose url resolved https://registry.npmjs.org/aster
+verbose GET aster
+verbose raw, before any munging aster
+verbose url resolving [ 'https://registry.npmjs.org/', './aster' ]
+verbose url resolved https://registry.npmjs.org/aster
+info Already published aster@0.0.3
+verbose uploading bin dists []
+WARN publish Forced publish over aster@0.0.3
+verbose GET aster
+verbose raw, before any munging aster
+verbose url resolving [ 'https://registry.npmjs.org/', './aster' ]
+verbose url resolved https://registry.npmjs.org/aster
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.1 (Erlang OTP/R14B04)',
+silly get cb     etag: '"DX9D3LQHIP7XB7JYBYSLWT8HM"',
+silly get cb     date: 'Sat, 05 Nov 2011 20:57:50 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '2120' } ]
+verbose removing attachments { shasum: '4b09038f9675944bf5c99940a8ff9549879073a6',
+verbose removing attachments   tarball: 'http://registry.npmjs.org/aster/-/aster-0.0.3.tgz' }
+verbose PUT aster/-rev/15-87d6535d69d6511a7d8eea84a1e0a122
+verbose raw, before any munging aster/-rev/15-87d6535d69d6511a7d8eea84a1e0a122
+verbose url resolving [ 'https://registry.npmjs.org/',
+verbose url resolving   './aster/-rev/15-87d6535d69d6511a7d8eea84a1e0a122' ]
+verbose url resolved https://registry.npmjs.org/aster/-rev/15-87d6535d69d6511a7d8eea84a1e0a122
+verbose GET aster
+verbose raw, before any munging aster
+verbose url resolving [ 'https://registry.npmjs.org/', './aster' ]
+verbose url resolved https://registry.npmjs.org/aster
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.1 (Erlang OTP/R14B04)',
+silly get cb     etag: '"6S01FTYI0OZ8PIHANI89QKQ75"',
+silly get cb     date: 'Sat, 05 Nov 2011 20:57:51 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '1365' } ]
+info detach /aster/-/aster-0.0.3.tgz/-rev/16-648c204589e92d94972b543d7cab58fb
+verbose DELETE /aster/-/aster-0.0.3.tgz/-rev/16-648c204589e92d94972b543d7cab58fb
+verbose raw, before any munging /aster/-/aster-0.0.3.tgz/-rev/16-648c204589e92d94972b543d7cab58fb
+verbose url resolving [ 'https://registry.npmjs.org/',
+verbose url resolving   './aster/-/aster-0.0.3.tgz/-rev/16-648c204589e92d94972b543d7cab58fb' ]
+verbose url resolved https://registry.npmjs.org/aster/-/aster-0.0.3.tgz/-rev/16-648c204589e92d94972b543d7cab58fb
+verbose publish [ '.' ]
+verbose from cache /Users/craig/Dropbox/Developer/Public/aster/package.json
+info prepublish aster@0.0.3
+verbose cache add [ '.', null ]
+silly cache add: name, spec, args [ undefined, '.', [ '.', null ] ]
+verbose parsed url { pathname: '.', href: '.' }
+verbose from cache package.json
+verbose pack /Users/craig/Dropbox/Developer/Public/aster /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526670207-0.01200440083630383/tmp.tgz
+verbose mkdir (expected) error ENOENT, No such file or directory '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526670207-0.01200440083630383'
+verbose mkdir done: /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526670207-0.01200440083630383 755
+verbose mkdir'ed /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526670207-0.01200440083630383
+verbose tar about to write tar and gzip it.
+silly tar args [ '-czvf', '-', '-T', '-' ]
+silly spawning [ 'tar',
+silly spawning   [ '-czvf', '-', '-T', '-' ],
+silly spawning   '/Users/craig/Dropbox/Developer/Public' ]
+verbose mkdir (expected) error ENOENT, No such file or directory '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526670207-0.01200440083630383/contents'
+verbose mkdir (expected) error ENOENT, No such file or directory '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526670207-0.01200440083630383/contents/___package.npm'
+verbose mkdir done: /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526670207-0.01200440083630383/contents/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526670207-0.01200440083630383/contents/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf',
+silly spawning     '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526670207-0.01200440083630383/tmp.tgz',
+silly spawning     '-o' ],
+silly spawning   '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526670207-0.01200440083630383/contents/___package.npm' ]
+silly tar err x aster/.cupboard
+silly tar err x aster/.gitignore
+silly tar err x aster/aster.sublime-project
+silly tar err x aster/package.json
+silly tar err x aster/README.md
+silly tar err x aster/lib/index.js
+silly tar err x aster/examples/ref/index.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526670207-0.01200440083630383/contents/___package.npm/aster
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526670207-0.01200440083630383/contents/___package.npm/aster/.cupboard
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526670207-0.01200440083630383/contents/___package.npm/aster/.gitignore
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526670207-0.01200440083630383/contents/___package.npm/aster/aster.sublime-project
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526670207-0.01200440083630383/contents/___package.npm/aster/package.json
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526670207-0.01200440083630383/contents/___package.npm/aster/README.md
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526670207-0.01200440083630383/contents/___package.npm/aster/lib
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526670207-0.01200440083630383/contents/___package.npm/aster/lib/index.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526670207-0.01200440083630383/contents/___package.npm/aster/examples
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526670207-0.01200440083630383/contents/___package.npm/aster/examples/ref
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526670207-0.01200440083630383/contents/___package.npm/aster/examples/ref/index.js
+verbose gunzed /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526670207-0.01200440083630383/contents/___package.npm/aster
+verbose rm'ed /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526670207-0.01200440083630383/contents/package
+verbose renamed [ '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526670207-0.01200440083630383/contents/___package.npm/aster',
+verbose renamed   '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526670207-0.01200440083630383/contents/package' ]
+silly testEngine { name: 'aster',
+silly testEngine   descriptions: 'Simplified AST traversing.',
+silly testEngine   version: '0.0.3',
+silly testEngine   author: { name: 'Craig Condon', email: 'craig@spiceapps.com' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/spiceapps/aster.git' },
+silly testEngine   main: './lib/index.js',
+silly testEngine   dependencies: { 'uglify-js': '*' },
+silly testEngine   _npmUser: { name: 'architectd', email: 'craig@spiceapps.com' },
+silly testEngine   _id: 'aster@0.0.3',
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.103',
+silly testEngine   _nodeVersion: 'v0.4.12',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526670207-0.01200440083630383/contents/package' }
+verbose caching /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526670207-0.01200440083630383/contents/package/package.json
+verbose loadDefaults aster@0.0.3
+verbose tarball contents [ 'package' ]
+verbose from cache /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526670207-0.01200440083630383/contents/package/package.json
+verbose pack /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526670207-0.01200440083630383/contents/package /Users/craig/.npm/aster/0.0.3/package.tgz
+verbose mkdir (expected) error ENOENT, No such file or directory '/Users/craig/.npm/aster/0.0.3'
+verbose mkdir done: /Users/craig/.npm/aster/0.0.3 755
+verbose mkdir'ed /Users/craig/.npm/aster/0.0.3
+verbose tar about to write tar and gzip it.
+silly tar args [ '-czvf', '-', '-T', '-' ]
+silly spawning [ 'tar',
+silly spawning   [ '-czvf', '-', '-T', '-' ],
+silly spawning   '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526664388/1320526670207-0.01200440083630383/contents' ]
+verbose mkdir (expected) error ENOENT, No such file or directory '/Users/craig/.npm/aster/0.0.3/___package.npm'
+verbose mkdir done: /Users/craig/.npm/aster/0.0.3/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/craig/.npm/aster/0.0.3/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf',
+silly spawning     '/Users/craig/.npm/aster/0.0.3/package.tgz',
+silly spawning     '-o' ],
+silly spawning   '/Users/craig/.npm/aster/0.0.3/___package.npm' ]
+silly tar err x package/.cupboard
+silly tar err x package/.gitignore
+silly tar err x package/aster.sublime-project
+silly tar err x package/package.json
+silly tar err x package/README.md
+silly tar err x package/lib/index.js
+silly tar err x package/examples/ref/index.js
+silly asyncMap in gTP /Users/craig/.npm/aster/0.0.3/___package.npm/package
+silly asyncMap in gTP /Users/craig/.npm/aster/0.0.3/___package.npm/package/.cupboard
+silly asyncMap in gTP /Users/craig/.npm/aster/0.0.3/___package.npm/package/.gitignore
+silly asyncMap in gTP /Users/craig/.npm/aster/0.0.3/___package.npm/package/aster.sublime-project
+silly asyncMap in gTP /Users/craig/.npm/aster/0.0.3/___package.npm/package/package.json
+silly asyncMap in gTP /Users/craig/.npm/aster/0.0.3/___package.npm/package/README.md
+silly asyncMap in gTP /Users/craig/.npm/aster/0.0.3/___package.npm/package/lib
+silly asyncMap in gTP /Users/craig/.npm/aster/0.0.3/___package.npm/package/lib/index.js
+silly asyncMap in gTP /Users/craig/.npm/aster/0.0.3/___package.npm/package/examples
+silly asyncMap in gTP /Users/craig/.npm/aster/0.0.3/___package.npm/package/examples/ref
+silly asyncMap in gTP /Users/craig/.npm/aster/0.0.3/___package.npm/package/examples/ref/index.js
+verbose gunzed /Users/craig/.npm/aster/0.0.3/___package.npm/package
+verbose rm'ed /Users/craig/.npm/aster/0.0.3/package
+verbose renamed [ '/Users/craig/.npm/aster/0.0.3/___package.npm/package',
+verbose renamed   '/Users/craig/.npm/aster/0.0.3/package' ]
+verbose from cache /Users/craig/.npm/aster/0.0.3/package/package.json
+silly updated sha bytes 10240
+info shasum 4f24e8bdd17189ab6d8868c8a4ca6a7ee80b7678
+info shasum /Users/craig/.npm/aster/0.0.3/package.tgz
+verbose from cache /Users/craig/.npm/aster/0.0.3/package/package.json
+verbose chmod /Users/craig/.npm/aster/0.0.3/package.tgz 644
+verbose chown [ '/Users/craig/.npm/aster/0.0.3/package.tgz',
+verbose chown   501,
+verbose chown   20 ]
+silly publish { name: 'aster',
+silly publish   descriptions: 'Simplified AST traversing.',
+silly publish   version: '0.0.3',
+silly publish   author: { name: 'Craig Condon', email: 'craig@spiceapps.com' },
+silly publish   repository: 
+silly publish    { type: 'git',
+silly publish      url: 'git://github.com/spiceapps/aster.git' },
+silly publish   main: './lib/index.js',
+silly publish   dependencies: { 'uglify-js': '*' },
+silly publish   _npmUser: { name: 'architectd', email: 'craig@spiceapps.com' },
+silly publish   _id: 'aster@0.0.3',
+silly publish   devDependencies: {},
+silly publish   engines: { node: '*' },
+silly publish   _engineSupported: true,
+silly publish   _npmVersion: '1.0.103',
+silly publish   _nodeVersion: 'v0.4.12',
+silly publish   _defaultsLoaded: true,
+silly publish   dist: 
+silly publish    { shasum: '4f24e8bdd17189ab6d8868c8a4ca6a7ee80b7678',
+silly publish      tarball: 'http://registry.npmjs.org/aster/-/aster-0.0.3.tgz' } }
+verbose PUT aster
+verbose raw, before any munging aster
+verbose url resolving [ 'https://registry.npmjs.org/', './aster' ]
+verbose url resolved https://registry.npmjs.org/aster
+verbose GET aster
+verbose raw, before any munging aster
+verbose url resolving [ 'https://registry.npmjs.org/', './aster' ]
+verbose url resolved https://registry.npmjs.org/aster
+verbose PUT aster/0.0.3/-tag/latest
+verbose raw, before any munging aster/0.0.3/-tag/latest
+verbose url resolving [ 'https://registry.npmjs.org/',
+verbose url resolving   './aster/0.0.3/-tag/latest' ]
+verbose url resolved https://registry.npmjs.org/aster/0.0.3/-tag/latest
+ERR! Error sending version data
+ERR! Error: forbidden _npmUser must be a current maintainer.
+ERR! maintainers=[{"name":"architectd","email":"craig.j.condon@gmail.com"}]
+ERR! current user={"name":"architectd","email":"craig.j.condon@gmail.com"}: aster/0.0.3/-tag/latest
+ERR!     at Request.callback (/usr/local/lib/node_modules/npm/lib/utils/npm-registry-client/request.js:181:12)
+ERR!     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/main.js:346:18)
+ERR!     at Request.emit (events.js:64:17)
+ERR!     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/main.js:314:16)
+ERR!     at IncomingMessage.emit (events.js:81:20)
+ERR!     at HTTPParser.onMessageComplete (http.js:133:23)
+ERR!     at CleartextStream.ondata (http.js:1231:22)
+ERR!     at CleartextStream._push (tls.js:303:27)
+ERR!     at SecurePair.cycle (tls.js:577:20)
+ERR!     at EncryptedStream.write (tls.js:96:13)
+ERR! Report this *entire* log at:
+ERR!     <http://github.com/isaacs/npm/issues>
+ERR! or email it to:
+ERR!     <npm-@googlegroups.com>
+ERR! 
+ERR! System Darwin 11.2.0
+ERR! command "node" "/usr/local/bin/npm" "publish" "--force"
+ERR! cwd /Users/craig/Dropbox/Developer/Public/aster
+ERR! node -v v0.4.12
+ERR! npm -v 1.0.103
+verbose exit [ 1, true ]
