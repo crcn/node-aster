@@ -2,7 +2,22 @@
 	"folders":
 	[
 		{
-			"path": "/Users/craig/.cupboard/projects/aster"
+			"path": "."
+		}
+	],
+	"build_systems":
+	[
+		{
+			"name":"cbd make",
+			"cmd":["cbd","make","aster"]
+		},
+		{
+			"name":"cbd start",
+			"cmd":["cbd","start","aster"]
+		},
+		{
+			"name":"cbd make+start",
+			"cmd":["cbd","make+start","aster"]
 		}
 	]
 }
